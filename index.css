@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+h2.title {
+    background-color: #069;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.carrinho-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    justify-content: space-around;
+}
+
+.produto {
+    width: calc(33.33% - 20px); /* Usando calc para incluir margem e garantir 3 por linha */
+    margin-bottom: 20px;
+    margin-right: 20px; /* Adicionando margem à direita para criar espaço entre as pizzas */
+    text-align: center;
+    box-sizing: border-box; /* Garantindo que a margem não aumente a largura total */
+}
+
+.produto img {
+    max-width: 100%;
+}
+
+.produto p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.produto a {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    color: white;
+    background-color: #5fb382;
+    text-align: center;
+    text-decoration: none;
+}
+
+.carrinho-item {
+    max-width: 1200px;
+    margin: 10px auto;
+    padding-bottom: 10px;
+    border-bottom: 2px dotted #ccc;
+}
+
+.carrinho-item p {
+    font-size: 19px;
+    color: black;
+}
